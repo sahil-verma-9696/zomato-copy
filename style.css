@@ -1,0 +1,87 @@
+/* Css resetor */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* comman classess   */
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-spaceBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parent-wh {
+    width: 100%;
+    height: 100%;
+}
+
+.parent-w {
+    width: 100%;
+}
+
+.parent-h {
+    height: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* common color class */
+.text-white {
+    color: white;
+}
+.text-red{
+    color: rgb(221, 40, 40);
+}
+
+/* common font size classess */
+.text-24 {
+    font-size: 24px;
+}
+
+/* commmon font weight classes */
+.weight-300 {
+    font-weight: 300;
+}
+
+.weight-100 {
+    font-weight: 100;
+}

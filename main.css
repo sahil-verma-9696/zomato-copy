@@ -1,0 +1,118 @@
+.main {
+    width: 1100px;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.main__part1 {
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.main__part1-card {
+    width: 353px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(136, 136, 136, 0.359);
+    overflow: hidden;
+    transition: all ease-in-out .3s;
+}
+
+.main__part1-card:hover {
+    scale: 1.05;
+}
+
+.main__part1-card-imgWrapper {
+    width: 100%;
+    height: 192px;
+    overflow: hidden;
+}
+
+.main__part1-card-img {
+    scale: 1.1;
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.main__part1-card-title {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.main__part1-card-text {
+    margin: 10px 0;
+    margin-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+
+/* main__part2 */
+.main__part2 {
+    margin: 20px 0;
+}
+
+.main__part2-top {
+    margin: 40px 0;
+}
+
+.main__part2-top-title {
+    font-size: 50px;
+}
+
+
+.main__part2-bottom {
+    gap: 10px;
+}
+
+
+.main__part2-bottom-card {
+    width: 267px;
+    height: 320px;
+    border-radius: 10px;
+    background-image: url(https://b.zmtcdn.com/data/collections/a1e31eb92bb9951aaf1750d88497adb4_1696417888.jpg?output-format=webp);
+    background-size: cover;
+}
+
+.main__part2-bottom-card::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.721));
+}
+
+.main__part2-bottom-card-item {
+    z-index: 1;
+    margin-left: 20px;
+    bottom: 10px;
+}
+
+.main__part2-bottom-card-text {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.main__part3-title{
+    margin-top: 100px;
+}
+
+.main__part3-card-container {
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.main__part3-card{
+    min-width: 350px;
+    height: 98.6px;
+    box-shadow: 0 0 2px black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.main__part3-card-left-placeCount{
+    line-height: 2;
+}
