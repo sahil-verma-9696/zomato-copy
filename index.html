@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 
 <body>
@@ -72,7 +73,7 @@
 
         </header>
 
-        <main class="main">
+        <main class="main parent-w">
             <div class="main__part1 flex parent-w">
                 <div class="main__part1-card">
                     <div class="main__part1-card-imgWrapper">
@@ -199,13 +200,58 @@
                         </div>
                         &#8250;
                     </div>
-                    <div class="main__part3-card flex-spaceBetween">
-                       <p>See more <i class="fa-solid fa-chevron-down"></i></p>
+                    <div class="main__part3-card main__part3-card-seemore flex-center">
+                        <p class="main__part3-card-seemore-text">See more <i class="fa-solid fa-chevron-down"></i></p>
                     </div>
                 </div>
             </div>
+
         </main>
 
+        <footer class="footer parent-w">
+            <div class="footer__part1 parent-w">
+                <div class="footer__part1-item flex">
+                    <div class="footer__part1-item-left">
+                        <div class="footer__part1-item-left-wraper flex-center">
+                            <img src="https://b.zmtcdn.com/data/o2_assets/f773629053b24263e69f601925790f301680693809.png"
+                                alt="" class="footer__part1-item-left-wraper-img">
+                        </div>
+                    </div> 
+
+                    <div class="footer__part1-item-right">
+                        <form action="" class="footer__part1-item-right-form flex-col">
+                            <h1 class="footer__part1-item-right-form-title weight-100">Get the Zomato app</h1>
+                            <p class="footer__part1-item-right-form-text ">We will send you a link, open it on your
+                                phone
+                                to download the app</p>
+                            <div class="footer__part1-item-right-form-radioWrapper parent-w">
+                                <input type="radio" name="x" id="email"> <label for="email">Email</label>
+                                <input type="radio" name="x" id="phone"> <label for="phone">Phone</label>
+                            </div>
+                            <div class="footer__part1-item-right-form-inputWrapper flex parent-w">
+                                <input type="text" class="footer__part1-item-right-form-inputWrapper-inp parent-w" placeholder="Email">
+                                <button type="submit" class="footer__part1-item-right-form-inputWrapper-btn text-white ">Share App
+                                    Link</button>
+                            </div>
+                            <div class="footer__part1-item-right-form-applinksWrapper parent-w">
+                                <p class="footer__part1-item-right-form-applinksWrapper-text">Download app from</p>
+
+                                <a class="footer__part1-item-right-form-applinksWrapper-link footer__part1-item-right-form-applinksWrapper-link-playstore"
+                                    href=""><img class="footer__part1-item-right-form-applinksWrapper-link-img"
+                                        src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+                                        alt=""></a>
+                                <a class="footer__part1-item-right-form-applinksWrapper-link footer__part1-item-right-form-applinksWrapper-link-applestore"
+                                    href="">
+                                    <img class="footer__part1-item-right-form-applinksWrapper-link-img"
+                                        src="	https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+                                        alt="">
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 <script src="https://kit.fontawesome.com/da68fb1077.js" crossorigin="anonymous"></script>

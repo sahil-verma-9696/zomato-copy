@@ -22,6 +22,7 @@ body {
 
 .flex-col {
     display: flex;
+    flex-direction: column;
 }
 
 .flex-center {
@@ -29,6 +30,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 
 .flex-col-center {
     display: flex;
@@ -68,7 +70,8 @@ body {
 .text-white {
     color: white;
 }
-.text-red{
+
+.text-red {
     color: rgb(221, 40, 40);
 }
 
